@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/mathsclub2/static/css/main.5f361e03.chunk.css",
+    "main.js": "/mathsclub2/static/js/main.a0c7e0af.chunk.js",
+    "main.js.map": "/mathsclub2/static/js/main.a0c7e0af.chunk.js.map",
+    "runtime-main.js": "/mathsclub2/static/js/runtime-main.0a1a17a4.js",
+    "runtime-main.js.map": "/mathsclub2/static/js/runtime-main.0a1a17a4.js.map",
+    "static/css/2.829c9cb5.chunk.css": "/mathsclub2/static/css/2.829c9cb5.chunk.css",
+    "static/js/2.1c050090.chunk.js": "/mathsclub2/static/js/2.1c050090.chunk.js",
+    "static/js/2.1c050090.chunk.js.map": "/mathsclub2/static/js/2.1c050090.chunk.js.map",
+    "index.html": "/mathsclub2/index.html",
+    "precache-manifest.1e5843eff13166632eac4b1e69c681e7.js": "/mathsclub2/precache-manifest.1e5843eff13166632eac4b1e69c681e7.js",
+    "service-worker.js": "/mathsclub2/service-worker.js",
+    "static/css/2.829c9cb5.chunk.css.map": "/mathsclub2/static/css/2.829c9cb5.chunk.css.map",
+    "static/css/main.5f361e03.chunk.css.map": "/mathsclub2/static/css/main.5f361e03.chunk.css.map",
+    "static/js/2.1c050090.chunk.js.LICENSE.txt": "/mathsclub2/static/js/2.1c050090.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0a1a17a4.js",
+    "static/css/2.829c9cb5.chunk.css",
+    "static/js/2.1c050090.chunk.js",
+    "static/css/main.5f361e03.chunk.css",
+    "static/js/main.a0c7e0af.chunk.js"
+  ]
+}
