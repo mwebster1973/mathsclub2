@@ -19,7 +19,7 @@ export function Navigation(props: NavigationProps) {
 
     return (
         <Navbar bg="light" expand="lg">
-            <Navbar.Brand href="home">Maths Club</Navbar.Brand>
+            <Navbar.Brand href="/">Maths Club</Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="mr-auto">

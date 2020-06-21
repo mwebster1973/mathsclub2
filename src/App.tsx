@@ -3,7 +3,7 @@ import './App.css';
 import { Sheet } from './Sheet';
 import { Club, CLUB_11 } from './model/ClubCriteria';
 import {
-  BrowserRouter as Router,
+  BrowserRouter,
   Switch,
   Route,
 } from "react-router-dom";
@@ -32,22 +32,19 @@ export class App extends React.Component<{}, AppState> {
 
   render() {
     return (
-      <Router>
+      <BrowserRouter basename="/mathsclub2">
         <div>
           <Navigation onSelection={this.clubSelected} />
           <Switch>
             <Route path="/sheet">
               <Sheet club={this.state.clubSelected} />
             </Route>
-            <Route path="/home">
-              <Home onSelection={this.clubSelected} />
-            </Route>
             <Route path="/">
               <Home onSelection={this.clubSelected} />
             </Route>
           </Switch>
         </div>
-      </Router>);
+      </BrowserRouter>);
   }
 }
 
