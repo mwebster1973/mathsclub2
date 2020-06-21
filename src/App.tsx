@@ -1,39 +1,51 @@
 import React from 'react';
 import './App.css';
 import { Sheet } from './Sheet';
-import { Club} from './model/ClubCriteria';
-import Container from 'react-bootstrap/Container';
+import { Club, CLUB_11 } from './model/ClubCriteria';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+} from "react-router-dom";
 
-import { SelectClub } from './SelectClub';
+import { Home } from './Home';
+import { Navigation } from './Navigation';
 
 interface AppState {
-  clubSelected : Club;
+  clubSelected: Club;
 }
-export class App extends React.Component<{},AppState> {
+export class App extends React.Component<{}, AppState> {
 
-  constructor(props: any){
-      super(props);
+  constructor(props: any) {
+    super(props);
     this.clubSelected = this.clubSelected.bind(this);
+    this.state = {
+      clubSelected: CLUB_11,
+    };
   }
 
   clubSelected(club: Club) {
+    console.log('Selevted', club);
     this.setState({
-      clubSelected : club
+      clubSelected: club
     })
-    console.log(club);
   }
 
   render() {
-    var sheet = <SelectClub onSelection={this.clubSelected} />;
-    if (this.state){
-      sheet = <Sheet club={this.state.clubSelected} />;
-    }
-
     return (
-      <Container>
-        {sheet}
-      </Container>
-    );
+      <Router>
+        <div>
+          <Navigation onSelection={this.clubSelected} />
+          <Switch>
+            <Route path="/sheet">
+              <Sheet club={this.state.clubSelected} />
+            </Route>
+            <Route path="/">
+              <Home onSelection={this.clubSelected} />
+            </Route>
+          </Switch>
+        </div>
+      </Router>);
   }
 }
 

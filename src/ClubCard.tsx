@@ -3,7 +3,7 @@ import './App.css';
 import { Club } from './model/ClubCriteria';
 import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
-
+import {Link} from "react-router-dom";
 export interface ClubCardProps {
   club: Club;
   onSelection: (club: Club) => void;
@@ -23,7 +23,9 @@ export class ClubCard extends React.Component<ClubCardProps> {
           <Card.Text>
             {this.props.club.description}
           </Card.Text>
-          <Button variant="primary" onClick={this.handleClick.bind(this)}>Select</Button>
+          <Link to="/sheet">
+              <Button variant="primary" onClick={this.handleClick.bind(this)}>Select</Button>
+          </Link>
         </Card.Body>
       </Card>
     );

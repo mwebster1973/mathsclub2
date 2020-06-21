@@ -11,7 +11,7 @@ export interface SelectClubProps {
   onSelection: (club: Club) => void;
 }
 
-export class SelectClub extends React.Component<SelectClubProps> {
+export class Home extends React.Component<SelectClubProps> {
 
   render() {
 
