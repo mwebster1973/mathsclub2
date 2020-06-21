@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/mathsclub2/static/css/main.5f361e03.chunk.css",
-    "main.js": "/mathsclub2/static/js/main.5929a3dc.chunk.js",
-    "main.js.map": "/mathsclub2/static/js/main.5929a3dc.chunk.js.map",
+    "main.js": "/mathsclub2/static/js/main.444c667d.chunk.js",
+    "main.js.map": "/mathsclub2/static/js/main.444c667d.chunk.js.map",
     "runtime-main.js": "/mathsclub2/static/js/runtime-main.0a1a17a4.js",
     "runtime-main.js.map": "/mathsclub2/static/js/runtime-main.0a1a17a4.js.map",
     "static/css/2.829c9cb5.chunk.css": "/mathsclub2/static/css/2.829c9cb5.chunk.css",
     "static/js/2.ac3f6288.chunk.js": "/mathsclub2/static/js/2.ac3f6288.chunk.js",
     "static/js/2.ac3f6288.chunk.js.map": "/mathsclub2/static/js/2.ac3f6288.chunk.js.map",
     "index.html": "/mathsclub2/index.html",
-    "precache-manifest.6362bb1d5111cd3671213b32dde6d81b.js": "/mathsclub2/precache-manifest.6362bb1d5111cd3671213b32dde6d81b.js",
+    "precache-manifest.3e2dfc68cbcad0852ba820653afc69e6.js": "/mathsclub2/precache-manifest.3e2dfc68cbcad0852ba820653afc69e6.js",
     "service-worker.js": "/mathsclub2/service-worker.js",
     "static/css/2.829c9cb5.chunk.css.map": "/mathsclub2/static/css/2.829c9cb5.chunk.css.map",
     "static/css/main.5f361e03.chunk.css.map": "/mathsclub2/static/css/main.5f361e03.chunk.css.map",
@@ -20,6 +20,6 @@
     "static/css/2.829c9cb5.chunk.css",
     "static/js/2.ac3f6288.chunk.js",
     "static/css/main.5f361e03.chunk.css",
-    "static/js/main.5929a3dc.chunk.js"
+    "static/js/main.444c667d.chunk.js"
   ]
 }
