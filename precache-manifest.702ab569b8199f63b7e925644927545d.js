@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f26757c8bdb2f4b2839707166b7fa53e",
+    "revision": "dca484dc2ccfa4b55e6f5cce39c37a3b",
     "url": "/mathsclub2/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/mathsclub2/static/css/2.829c9cb5.chunk.css"
   },
   {
-    "revision": "37d4f69b4a3b240b4ef0",
+    "revision": "639917c6779f7f87a529",
     "url": "/mathsclub2/static/css/main.5f361e03.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/mathsclub2/static/js/2.ac3f6288.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "37d4f69b4a3b240b4ef0",
-    "url": "/mathsclub2/static/js/main.e8fc093b.chunk.js"
+    "revision": "639917c6779f7f87a529",
+    "url": "/mathsclub2/static/js/main.c6b371d2.chunk.js"
   },
   {
     "revision": "01b80a5d041412753ce2",
