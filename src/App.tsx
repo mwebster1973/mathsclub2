@@ -39,6 +39,9 @@ export class App extends React.Component<{}, AppState> {
             <Route path="/sheet">
               <Sheet club={this.state.clubSelected} />
             </Route>
+            <Route path="/home">
+              <Home onSelection={this.clubSelected} />
+            </Route>
             <Route path="/">
               <Home onSelection={this.clubSelected} />
             </Route>

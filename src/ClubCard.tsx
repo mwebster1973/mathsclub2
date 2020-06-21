@@ -23,7 +23,7 @@ export class ClubCard extends React.Component<ClubCardProps> {
           <Card.Text>
             {this.props.club.description}
           </Card.Text>
-          <Link to="/sheet">
+          <Link to="sheet">
               <Button variant="primary" onClick={this.handleClick.bind(this)}>Select</Button>
           </Link>
         </Card.Body>

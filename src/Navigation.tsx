@@ -14,12 +14,12 @@ export function Navigation(props: NavigationProps) {
 
     function handleClick(event: React.MouseEvent<HTMLElement>, club:Club) {
         props.onSelection(club);
-        history.push("/sheet");
+        history.push("sheet");
     }
 
     return (
         <Navbar bg="light" expand="lg">
-            <Navbar.Brand href="/">Maths Club</Navbar.Brand>
+            <Navbar.Brand href="home">Maths Club</Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="mr-auto">
