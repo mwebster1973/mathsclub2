@@ -25,7 +25,6 @@ export class App extends React.Component<{}, AppState> {
   }
 
   clubSelected(club: Club) {
-    console.log('Selevted', club);
     this.setState({
       clubSelected: club
     })
