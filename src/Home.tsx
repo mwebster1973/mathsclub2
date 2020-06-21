@@ -20,7 +20,7 @@ export class Home extends React.Component<SelectClubProps> {
         <Jumbotron>
           <h1>Maths Club</h1>
           <p>Learn the times tables - a little bit each day!</p>
-          <p>Start with the 22 club, each day print out and complete the questions. For 4 days a week, the sheet is not timed, its just for fun. However, on the 5th day you have 10 minutes to complete the questions. If you get all the questions right, you move up a club.</p>
+          <p>Start with the 11 club, each day print out and complete the questions. For 4 days a week, the sheet is not timed, its just for fun. However, on the 5th day you have 10 minutes to complete the questions. If you get all the questions right, you move up a club.</p>
         </Jumbotron>
         <Row>
           <Col>
